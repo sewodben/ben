@@ -1,0 +1,105 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+main{
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+    margin: auto;
+    max-width: 1000px;
+}
+.srkl{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    background-color: #ffffff;
+    width: 150%;
+}
+header{
+    height: 160px;
+    padding-top: 10px;
+    color: rgb(70, 33, 33);
+    background-color: #0b4049;
+}
+.photo{
+    margin-left: 7%;
+    border-radius: 150%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.des{
+    margin-left: 25%;
+    margin-top: -10%;
+}
+h3{
+    color: white;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 20px; 
+}
+.post{
+    color: orangered;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.right{
+    margin: 5px;
+    padding: 0;
+    margin-top: -10%;
+}
+.right p{
+    margin-left: 500px;
+    letter-spacing: .1rem;
+}
+.section-left{
+    background-color: bisque;
+    float: left;
+    width: 600px;
+}
+.section-right{
+    background-color: #396288;
+    float: right;
+    width: 400px;
+}
+h4{
+    margin-left: 10%;
+    color: #13c3ba;
+    letter-spacing: .1rem;
+    font-size: 18px;
+}
+hr .light{
+    border-top: 15px solid #13c3ba;
+    width: 90%;
+    margin-top: .4rem;
+    margin-bottom: 1rem;
+}
+.atouts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10%;
+}
+.div{
+    margin-left: 10%;
+}
+.skls{
+    padding: 0;
+    width: 40%;
+    margin-left: 10%;
+}
+.cool{
+    background-color: #fff;
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 7px;
+}
+.po{
+    margin-top: 20px;
+}
+strong{
+    color: white;
+    text-decoration: none;
+}
+.inner{
+    height: 100%;
+    background-color: rgb(107, 30, 94);
+}
